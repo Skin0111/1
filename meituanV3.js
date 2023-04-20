@@ -1,14 +1,6 @@
 /*
 美团 v3.02
 
-新版美团仅支持青龙等nodejs环境, 不支持圈X
-自动领券和完成一些活动任务
-已删除大部分失效和不能提现的活动,新增了一些领券
-
-自行捉包把meituan.com里面的token(一般在请求头里)填到变量 meituanCookie 中, 多账号换行或&或@隔开
-export meituanCookie="AgGZIgsYHyxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-定时建议至少7点11点17点各跑一次拿三餐奖励, 多跑几次也没事
-
 cron: 31 2,7,11,17,21 * * *
 const $ = new Env("美团");
 */
